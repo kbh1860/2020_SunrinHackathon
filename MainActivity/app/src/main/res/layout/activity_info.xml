@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:paddingRight="50px"
+        android:layout_width="414dp"
+        android:layout_height="106dp"
+        android:src="@drawable/finallogo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hana"
+        android:text="Q : 모아카는 무슨 앱인가요?\n"
+        android:textColor="#000000"
+        android:textSize="80px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="157dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="79dp"
+        android:fontFamily="@font/hana"
+        android:text="A : 모아카는 서울에 위치해 있는 학원들 목록을 간편하게 볼 수 \n     있도록 정리를 해둔 앱입니다 부족하지만  \n     재밌게 봐주세요 :D\n\n"
+        android:textColor="#808080"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hana"
+        android:text="Q : 앱에 건의 사항이 있어요!\n"
+        android:textColor="#000000"
+        android:textSize="80px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hana"
+        android:text="A : kbh10211@naver.com으로 건의 부탁드립니다\n\n"
+        android:textColor="#808080"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <TextView
+        android:layout_width="589dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/hana"
+        android:text="Q : 다른 지역은 언제 추가되나요?\n"
+        android:textColor="#000000"
+        android:textSize="80px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hana"
+        android:text="A : 이게 다 개발자가 부족해서 그럽니다 \n     빠른 시일내에 업데이트 할 수 있도록 노력하겠습니다 :D"
+        android:textColor="#808080"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="558dp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

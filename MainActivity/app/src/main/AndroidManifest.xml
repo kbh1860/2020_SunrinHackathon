@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mainactivity">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Info"></activity>
+        <activity android:name=".selectActivity" />
+        <activity android:name=".gangseo" />
+        <activity android:name=".guro" />
+        <activity android:name=".youngdeungpo" />
+        <activity android:name=".geumchun" />
+        <activity android:name=".Gwanak" />
+        <activity android:name=".dongjak" />
+        <activity android:name=".seocho" />
+        <activity android:name=".gangdonggu" />
+        <activity android:name=".gwangjingu" />
+        <activity android:name=".sungdonggu" />
+        <activity android:name=".jungu" />
+        <activity android:name=".dongdaemun" />
+        <activity android:name=".seodaemun" />
+        <activity android:name=".sungbuk" />
+        <activity android:name=".jungrang" />
+        <activity android:name=".gangbuk" />
+        <activity android:name=".enpyeong" />
+        <activity android:name=".yangchun" />
+        <activity android:name=".mapo" />
+        <activity android:name=".jongro" />
+        <activity android:name=".yongsan" />
+        <activity android:name=".gangnam" />
+        <activity android:name=".dobong" />
+        <activity android:name=".songpa" />
+        <activity android:name=".nowon" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SubActivity" />
+    </application>
+
+</manifest>

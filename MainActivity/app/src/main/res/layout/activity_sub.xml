@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubActivity"
+    tools:ignore="ExtraText,MissingConstraints">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SubActivity"
+        tools:layout_editor_absoluteX="-34dp"
+        tools:layout_editor_absoluteY="-96dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="100px" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="149dp"
+                android:src="@drawable/finallogo"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="100px" /> // 공백을 처리
+
+            <Button
+                android:id="@+id/gangnamActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="강남구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.128"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.539" />
+
+            <Button
+                android:id="@+id/gangdongguActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="강동구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+            <Button
+                android:id="@+id/gangbukActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="강북구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+            <Button
+                android:id="@+id/gangseoActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="강서구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/GwankActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="관악구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+            <Button
+                android:id="@+id/gwangjinguActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="광진구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/guroActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="구로구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+            <Button
+                android:id="@+id/geumchunActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="금천구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/nowonActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="노원구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.128"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/dobongActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="도봉구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.89"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/dongdaemunActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="동대문구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/dongjakActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="동작구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/mapoActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="마포구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.539" />
+
+            <Button
+                android:id="@+id/seodaemunActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="서대문구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/seochoActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="서초구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/sungdongguActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="성동구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+            <Button
+                android:id="@+id/sungbukActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="성북구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+            <Button
+                android:id="@+id/songpaActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="송파구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/yangchunActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="양천구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.726" />
+
+            <Button
+                android:id="@+id/youngdeungpoActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="영등포구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <Button
+                android:id="@+id/yongsanActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="용산구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.89"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.726" />
+
+            <Button
+                android:id="@+id/eunpyeongActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="은평구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.89"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.539" />
+
+            <Button
+                android:id="@+id/jongroActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="종로구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.151"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.726" />
+
+
+            <Button
+                android:id="@+id/junguActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="중구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+
+
+            <Button
+                android:id="@+id/jungrangActivity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/hana"
+                android:text="중랑구"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hana"
+                android:gravity="center_horizontal"
+                android:text="더 많은 지역은"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="64dp"
+                tools:layout_editor_absoluteY="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hana"
+                android:gravity="center"
+                android:paddingLeft="250px"
+                android:text="조금만 기다려주세요 :D"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="64dp"
+                tools:layout_editor_absoluteY="11dp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
